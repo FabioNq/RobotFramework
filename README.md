@@ -1,10 +1,11 @@
-Python instalado
+# Robot Framework
+
+
 
 
 
 # O que é?
-Sistema de automação de elaboração de decisão inicial do fluxo fiscal.
-
+Teste automatizado simples utilizando Robot Framework
 # Recursos
 * Acessar a pagina do google `google.com.br`
 * pesquisar por `Robot Framework`
@@ -12,16 +13,16 @@ Sistema de automação de elaboração de decisão inicial do fluxo fiscal.
 * Confirmar que está pagina foi aberta corretamente.
 
 # Quais tecnologia são utilizada?
-* Python
+* Python (ncessário python instalado) `https://www.python.org/downloads/`
 * Robot Framework
 * SeleniumLibrary (automação de browsers)
-* Beautiful Soup (extração de dados de HTMLs)
 
 # Como rodar?
 Instale as dependências com o python instalado utilize os comandos:
-`pip install Robot Framework`
-`pip install --upgrade robotframework-seleniumlibrary`
+* `pip install Robot Framework`
+
+* `pip install --upgrade robotframework-seleniumlibrary`
 
 E rode com:
-`robot -d results teste/desafio01.robot`
+* `robot -d results teste/desafio01.robot`
 
